@@ -20,6 +20,7 @@ function GooglePayButton() {
           testEnv: true,
           merchantName: 'Demo Escuela',
           currencyCode: 'MXN',
+          merchantCountryCode: 'MX',
         },
       });
 
