@@ -11,6 +11,12 @@
       android:theme="@style/AppTheme"
       android:usesCleartextTraffic="${usesCleartextTraffic}"
       android:supportsRtl="true">
+
+      <!-- Google Pay enabled -->
+      <meta-data
+          android:name="com.google.android.gms.wallet.api.enabled"
+          android:value="true" />
+
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"
@@ -23,5 +29,6 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
       </activity>
+
     </application>
 </manifest>
