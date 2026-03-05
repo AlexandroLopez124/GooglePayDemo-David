@@ -50,7 +50,7 @@ const stripe = require('stripe')('sk_test_TU_CLAVE_AQUI');
 
 En el frontend (App.tsx) debe colocarse la clave pública:
 
-<StripeProvider publishableKey="pk_test_TU_CLAVE_AQUI">
+
 
 ▶️ Ejecutar el Backend
 
